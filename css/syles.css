@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+h1{
+  font-size: 550.5%;
+  width: 20%;
+  margin:0 auto;
+  color: #ff005c;
+  margin-top: 50px;
+}
+h2{
+  font-size:2.5rem;
+  color: #ff005c;
+  padding-bottom: 10px
+}
+hr{
+  border:dotted #fff600 10px;
+  border-bottom: none;
+  margin:100px 0;
+}
+a{
+  font-family: 'Dancing Script', cursive;
+  margin: 10px 20px;
+
+}
+.top-box{
+  position: relative;
+  background: #ccffbd;
+  padding-top: 100px;
+
+}
+
+.bottom-c{
+  position: absolute;
+  left:400px;
+  bottom: 300px;
+
+}
+.top-c{
+  position: absolute;
+  top: 50px;
+  right:400px;
+}
+.middle-box{
+  margin: 100px 0;
+
+
+}
+.bottom-box{
+  margin: 100px 0 0 0;
+  background: #ccffbd;
+  padding: 50px 0 20px 0;
+
+}
+.btn{
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #b8b12b);
+  background-image: -moz-linear-gradient(top, #d93434, #b8b12b);
+  background-image: -ms-linear-gradient(top, #d93434, #b8b12b);
+  background-image: -o-linear-gradient(top, #d93434, #b8b12b);
+  background-image: linear-gradient(to bottom, #d93434, #b8b12b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #3cfc43;
+  background-image: -webkit-linear-gradient(top, #3cfc43, #d6d934);
+  background-image: -moz-linear-gradient(top, #3cfc43, #d6d934);
+  background-image: -ms-linear-gradient(top, #3cfc43, #d6d934);
+  background-image: -o-linear-gradient(top, #3cfc43, #d6d934);
+  background-image: linear-gradient(to bottom, #3cfc43, #d6d934);
+  text-decoration: none;
+}
